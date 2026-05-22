@@ -15,6 +15,14 @@ Implementation repository for the paper "Understanding and Mitigating Premature 
     <img src="https://img.shields.io/badge/Weights-%236C5CE7?style=for-the-badge"></a>
 </div>
 
+## Citation
+
+If you found our work helpful, please consider citing this paper:
+
+```
+
+```
+
 ## Countdown Reasoning
 
 ### Setup
@@ -44,7 +52,7 @@ python examples/data_preprocess/countdown.py \
     --local_dir countdown-data/countdown-4-10-50
 ```
 
-Launch the four experiments:
+Launch the experiments:
 
 ```bash
 export BASE_MODEL=/path/to/Qwen2.5-3B
@@ -78,7 +86,7 @@ Prepare the dataset:
 python examples/data_preprocess/prepare_dapo_hard.py --output_dir data/dapo_hard
 ```
 
-Launch the two experiments:
+Launch the experiments:
 
 ```bash
 export MODEL_PATH=/path/to/Qwen2.5-Math-7B
