@@ -52,7 +52,7 @@ bash scripts/train_countdown.sh countdown-data/countdown-4-30-100 0.0
 bash scripts/train_countdown.sh countdown-data/countdown-4-30-100 1.0
 ```
 
-In countdown task, due to the format reward, we implemented progressive confidence shaping on top of vanilla reward.
+In countdown task, due to the format reward, we implemented progressive confidence shaping before advantage computation, in order to avoid complexity.
 
 Our checkpoints are available at [here](https://huggingface.co/guanning/CoT_Premature_Confidence/tree/main/countdown).
 
