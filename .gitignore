@@ -1,0 +1,22 @@
+# Python / build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Materialized data and checkpoints
+Countdown/countdown-data/
+Math/data/
+checkpoints/
+logs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+
+# Local env
+.env
+.claude/

@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (should not be committed)
+**/data/
+**/models/
+**/checkpoints/
+**/ckpt-*/
+
+# Training outputs
+outputs/
+wandb/
+*.log
+*.out
+
+# Model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Dataset files
+*.parquet
+*.json
+*.csv
+*.h5
+*.hdf5
+
+# Wheel files
+*.whl
+
+# Ray
+/tmp/ray/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Hydra outputs
+.hydra/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Local configuration (keep examples but ignore local paths)
+# Note: Training scripts with local paths should use placeholders
+
+# Sibling project / external code mirror
+SDPO/
+
+# Run logs and experiment outputs
+logs/
+math_faithfulness_paper_aligned_outputs/
+math_faithfulness_paper_aligned_output/
+
+# Generated plots (top-level scratch outputs)
+dapo_pass_k_plots/
+/plots_*.png
+
+# Local AI-generated analysis notes (transient scratch — keep out of repo)
+EXECUTIVE_SUMMARY.md
+FINAL_SUMMARY.md
+FILES_SUMMARY.txt
+INDEX.md
+METRICS_ANALYSIS.md
+README_ANALYSIS.md
+README_METRICS.md
+VALIDATION_HISTORY.md
+VALIDATION_SUMMARY.txt
+LOG文件位置说明.md
