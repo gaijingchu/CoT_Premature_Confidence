@@ -26,6 +26,9 @@ ENV/
 **/models/
 **/checkpoints/
 **/ckpt-*/
+# Exception: verl source code under verl/models/ is part of the package and must be tracked.
+!verl/models/
+!verl/models/**
 
 # Training outputs
 outputs/
