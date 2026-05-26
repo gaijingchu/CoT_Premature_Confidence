@@ -4,10 +4,10 @@
 
 </div>
 
-Implementation repository for the paper "Understanding and Mitigating Premature Confidence for Better LLM Reasoning".
+Implementation repository for the paper "Understanding and Mitigating Premature Confidence for Better LLM Reasoning" ([arXiv](https://arxiv.org/abs/2605.24396)).
 
 <div align="center">
-<a href="">
+<a href="https://arxiv.org/abs/2605.24396">
     <img src="https://img.shields.io/badge/Paper-%23FF2442?style=for-the-badge"></a>
 <a href="https://github.com/gaijingchu/CoT_Premature_Confidence">
     <img src="https://img.shields.io/badge/Code-%2300B4D8?style=for-the-badge"></a>
@@ -20,7 +20,15 @@ Implementation repository for the paper "Understanding and Mitigating Premature 
 If you found our work helpful, please consider citing this paper:
 
 ```
-
+@misc{gai2026understandingmitigatingprematureconfidence,
+      title={Understanding and Mitigating Premature Confidence for Better LLM Reasoning}, 
+      author={Jingchu Gai and Guanning Zeng and Christina Baek and Chen Wu and J. Zico Kolter and Andrej Risteski and Aditi Raghunathan},
+      year={2026},
+      eprint={2605.24396},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.24396}, 
+}
 ```
 
 ## Countdown Reasoning
